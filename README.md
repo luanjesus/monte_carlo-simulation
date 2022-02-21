@@ -17,4 +17,7 @@ Vale ressaltar, que os resultados dos geradores não são completamente aleatór
 
 Como cada gerador possui seu próprio algoritmo de números aleatórios, é necessário informar qual será o valor inicial para fornecer os dados seguintes. Este número inicial é conhecido como semente, pois é o ponto de partida para as operações matemáticas que possibilitam a geração dos números pseudo-aleatórios. Logo, é certo dizer que cada geração de números aleatórios depende diretamente da semente utilizada.
 
-Após, a definição da FDP e do método de geração, é realizado um processo de repetição dos valores obtidos, juntamente como alguma técnica de amostragem, esse procedimento ocorre até que os resultados esperados e/ou ponto de parada sejam atingidos.
+Após, a definição da FDP e do método de geração, é realizado um processo de repetição dos valores obtidos, juntamente como alguma técnica de amostragem, esse procedimento ocorre até que os resultados esperados e/ou ponto de parada sejam atingidos. Veja uma ilustração simplificada de um processo de simulação.
+
+
+![image](https://user-images.githubusercontent.com/31603707/154871246-8e9db8a3-f407-4291-bc82-38ad840bc6fe.png?)
