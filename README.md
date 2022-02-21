@@ -1,4 +1,9 @@
+
+Este repositório tem como objetivo dar continuídade ao estudo das análises preditivas para finanças, iniciado no meu projeto de conclusão de curso. Caso interesse, o mesmo pode ser obtido no meu <a href="https://www.linkedin.com/in/luanjesus/overlay/1614744600692/single-media-viewer?type=DOCUMENT&profileId=ACoAAB4KcAUB6wzn7Uv3BqGhuHfPyaS3xGYRIxk&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BTQu1oV5oTCWqH%2FNRjfvaWQ%3D%3D">Linkedin</a>
+
 # Método de Simulações de Monte Carlo
+
+![image](https://user-images.githubusercontent.com/31603707/154874498-7ec4b94e-c641-4e58-bf5c-9f7e4830222c.png)
 
 ## _Introdução_
 
@@ -40,4 +45,5 @@ Neste processo, foram geradas algumas simulações com os valores 10, 100, 1000,
     ![image](https://user-images.githubusercontent.com/31603707/154873754-a9fc8249-e54b-4716-8dc9-1aed247d7db6.png)
 
 
-
+## Modelo 2: Predição dos Valores de Fechamento de ativos na B3 (Bolsa de Valores Brasileira)
+### Em breve será atualizado
