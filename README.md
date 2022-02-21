@@ -19,5 +19,25 @@ Como cada gerador possui seu próprio algoritmo de números aleatórios, é nece
 
 Após, a definição da FDP e do método de geração, é realizado um processo de repetição dos valores obtidos, juntamente como alguma técnica de amostragem, esse procedimento ocorre até que os resultados esperados e/ou ponto de parada sejam atingidos. Veja uma ilustração simplificada de um processo de simulação.
 
+   ![image](https://user-images.githubusercontent.com/31603707/154871246-8e9db8a3-f407-4291-bc82-38ad840bc6fe.png?)
 
-![image](https://user-images.githubusercontent.com/31603707/154871246-8e9db8a3-f407-4291-bc82-38ad840bc6fe.png?)
+## Modelo 1: Aplicando Simulações de Monte Carlo para estimar o valor de π
+
+Para comprovar que o método funciona e facilitar o entendimento do processo das SMC, modelei uma FDP para estimar o valor da constante de π, pois, este é um dado bastante conhecido. Para ver as definições utilizadas na modelagem da função verifique o arquivo Jupyter Notebook <a href="https://github.com/luanjesus/metodo-simulacao-monte-carlo/blob/main/estimando_valor_pi_smc.ipynb">estimando_valor_pi_smc.ipynb</a>.
+
+Neste processo, foram geradas algumas simulações com os valores 10, 100, 1000, 10000 e 100000, conforme o número ia aumentando o valor estimado se aproximava bastante do resultado esperado (3,14). Sendo que acima de 1000 repetições a taxa de acerto já era superior a 96%, ou seja, os valores eram bem próximos do resultado real.
+
+- **Resultados obtidos na Simulação 1**
+
+    ![image](https://user-images.githubusercontent.com/31603707/154872701-6027c6ee-0a7d-448c-87c6-e30aba31bc28.png)
+
+- **Resultados obtidos na Simulação 2**
+
+    ![image](https://user-images.githubusercontent.com/31603707/154873242-5d061fab-7224-4530-a87f-6b21786b29a1.png)
+
+- **Gráfico Scatter com a distribuição dos pontos gerados nas simulações**
+
+    ![image](https://user-images.githubusercontent.com/31603707/154873754-a9fc8249-e54b-4716-8dc9-1aed247d7db6.png)
+
+
+
